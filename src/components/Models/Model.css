@@ -1,0 +1,65 @@
+.Model{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.screen{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: start;
+    width: 800px;
+   
+    margin: auto;
+   
+    margin-top: 16px;
+    background-color: rgba(211, 211, 211, 0.87);
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.div{
+    width: 50%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 25px;
+    margin:10px 50px;
+    text-align: center;
+}
+
+.div_content{
+    font-size: 100;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    color:darkslategrey;
+}
+
+.navbar{
+    
+    width: 800px;
+   
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.first{
+    flex:2;
+    justify-self: start;
+    margin-left:10px;
+}
+.first li{
+    margin-left:50px;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    margin:0px 10px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}

@@ -1,0 +1,28 @@
+.part{
+    width: 50%;
+    border: 3px solid grey;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 25px;
+    margin: 20px;
+    text-align: start;
+    ;
+}
+
+.title{
+    color: black;
+    font-size: 400;
+    font-family: 'Lora', serif;
+    cursor: pointer;
+}
+
+.read-more-link{
+    color: rgba(153, 153, 153, 0.959);
+    font-family: 'Lora', serif;
+    cursor: pointer;
+}
+.para{
+    color: darkslategrey;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200;
+}
